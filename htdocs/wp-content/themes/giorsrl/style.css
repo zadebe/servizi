@@ -1,0 +1,46 @@
+/*
+Theme Name: GiorSrl
+Theme URI: http://giorhomesrl.it/
+Author: aThemes
+Author URI: http://giorhomesrl.it/
+Description: Giorhome SRL is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Version: 1.41
+License: GNU General Public License v2 or later
+License URI: http://giorhomesrl.it/
+Text Domain: giorhomesrl
+Tags: two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    background-color: #fff;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
