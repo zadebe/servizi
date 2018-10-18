@@ -177,7 +177,6 @@ padding: 10px 10px 10px 30px;
 
 .main-nav {
     position: fixed;
-    top: 33px;
     width: 100%;
     z-index: 1;
     height: 85px;
