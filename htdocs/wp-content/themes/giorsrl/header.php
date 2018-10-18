@@ -30,21 +30,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">
-            <h1><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/logo_2.png" alt="logo"></h1>
+          <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/logo_2.png" alt="logo">
           </a>                    
         </div>
         <div class="cssmenu">
-          <ul>    
-              <?php html5blank_nav(); ?>             
+            <ul class="nav">
+                <?php html5blank_nav(); ?>
+            </ul>
             <!--li class="scroll active"><a href="#home">Home</a></li>
             <li class="scroll"><a href="#services">Service</a></li> 
             <li class="scroll"><a href="#about-us">About Us</a></li>                     
             <li class="scroll"><a href="#portfolio">Portfolio</a></li>
             <li class="scroll"><a href="#team">Team</a></li>
             <li class="scroll"><a href="#blog">Blog</a></li>
-            <li class="scroll"><a href="#contact">Contact</a></li--->       
-          </ul>
+            <li class="scroll"><a href="#contact">Contact</a></li--->
         </div>
       </div>
     </div><!--/#main-nav-->   
