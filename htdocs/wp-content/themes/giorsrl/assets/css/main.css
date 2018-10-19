@@ -65,9 +65,8 @@ ul {
 
 .nav li a {
     display: block;
-    text-transform: uppercase;
     color: #555;
-    font-size: 14px;
+    font-size: 0.91em;
     font-weight: 600;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -75,6 +74,7 @@ ul {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     text-decoration: none;
+    padding: 10px 12px;
 }
 
 .nav li a:hover {
