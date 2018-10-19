@@ -108,6 +108,26 @@ padding: 10px 10px 10px 30px;
     float: left;
 }
 
+@media (max-width: 767px){
+    .nav > li {
+        float: none;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #333 !important;
+    }
+    .navbar-toggle {
+        border: 1px solid #333 !important;
+        margin-top: 25px !important;
+    }
+    .navbar-nav{
+        float: none !important;
+        margin-top: 0 !important;
+    }
+    .navbar-collapse{
+        background: #fff1ec;
+    }
+}
+
 .nav > li.hover > ul {
     left: -1px;
     top: 30px;
@@ -172,11 +192,12 @@ padding: 10px 10px 10px 30px;
 }
 
 .navbar-brand img {
-    height: 82px;
+    height: 70px;
+    padding-top: 10px;
 }
 
 .main-nav {
-    position: fixed;
+    top: auto !important;
     width: 100%;
     z-index: 1;
     height: 85px;
@@ -193,7 +214,7 @@ padding: 10px 10px 10px 30px;
 }
 
 .navbar-brand {
-    padding: 0 !important;
+    padding: 0;
 }
 
 /*************************
@@ -262,7 +283,7 @@ a:hover {
     outline: none
 }
 
-section {
+#services,#about-us,#portfolio,#contact{
     padding: 90px 0;
 }
 
@@ -1165,7 +1186,8 @@ ul.address {
     width: 100%; /* The width is the width of the web page */
 }
 
-.cssmenu{
+.navbar-nav{
+    display: block !important;
     float: right;
     margin-top: 20px;
 }
